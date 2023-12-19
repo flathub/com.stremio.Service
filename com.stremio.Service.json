@@ -32,7 +32,7 @@
             "install -Dm755 ./flatpak/stremio-service -t /app/bin/",
             "install -Dm755 server.js -t /app/share/stremio-service/",
             "install -Dm755 ./target/release/stremio-service -t /app/share/stremio-service/",
-            "install -Dm755 ./resources/bin/linux/node -t /app/share/stremio-service/",
+            "install -Dm755 ./resources/bin/linux/stremio-runtime -t /app/share/stremio-service/",
             "install -Dm755 ./resources/bin/linux/ffmpeg -t /app/share/stremio-service/",
             "install -Dm755 ./resources/bin/linux/ffprobe -t /app/share/stremio-service/",
             "install -Dm644 ./LICENSE.md -t /app/share/stremio-service/",
@@ -44,7 +44,7 @@
             {
                 "type": "git",
                 "url": "https://github.com/Stremio/stremio-service.git",
-                "commit": "dfc70dea79f8a3e1091fac43114ba0e4e5545b77"
+                "commit": "21ba2fc42de63834d115eb26d545c906db5176ef"
             },
             "./cargo-sources.json",
             "./server-source.json"

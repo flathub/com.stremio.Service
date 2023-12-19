@@ -691,6 +691,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/derivative/derivative-2.2.0.crate",
+        "sha256": "fcc3dd5e9e9c0b295d6e1e4d811fb6f157d5ffd784b8d202fc62eac8035a770b",
+        "dest": "cargo/vendor/derivative-2.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"fcc3dd5e9e9c0b295d6e1e4d811fb6f157d5ffd784b8d202fc62eac8035a770b\", \"files\": {}}",
+        "dest": "cargo/vendor/derivative-2.2.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/digest/digest-0.10.5.crate",
         "sha256": "adfbc57365a37acbd2ebf2b64d7e69bb766e2fea813521ed536f5d0520dcf86c",
         "dest": "cargo/vendor/digest-0.10.5"
@@ -1562,6 +1575,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/ico/ico-0.3.0.crate",
+        "sha256": "e3804960be0bb5e4edb1e1ad67afd321a9ecfd875c3e65c099468fd2717d7cae",
+        "dest": "cargo/vendor/ico-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"e3804960be0bb5e4edb1e1ad67afd321a9ecfd875c3e65c099468fd2717d7cae\", \"files\": {}}",
+        "dest": "cargo/vendor/ico-0.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/idna/idna-0.2.3.crate",
         "sha256": "418a0a6fab821475f634efe3ccc45c013f742efe03d853e8d3355d5cb850ecf8",
         "dest": "cargo/vendor/idna-0.2.3"
@@ -1895,6 +1921,19 @@
         "type": "inline",
         "contents": "{\"package\": \"62bb907fe88d54d8d9ce32a3cceab4218ed2f6b7d35617cafe9adf84e43919cb\", \"files\": {}}",
         "dest": "cargo/vendor/malloc_buf-0.0.6",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/manual-serializer/manual-serializer-0.1.0.crate",
+        "sha256": "e02dee11e3506095a84dddc0ecd8c9ff61f6611e6353ba6f9bb85c63144ae088",
+        "dest": "cargo/vendor/manual-serializer-0.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"e02dee11e3506095a84dddc0ecd8c9ff61f6611e6353ba6f9bb85c63144ae088\", \"files\": {}}",
+        "dest": "cargo/vendor/manual-serializer-0.1.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3759,6 +3798,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/windows/windows-0.43.0.crate",
+        "sha256": "04662ed0e3e5630dfa9b26e4cb823b817f1a9addda855d973a9458c236556244",
+        "dest": "cargo/vendor/windows-0.43.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"04662ed0e3e5630dfa9b26e4cb823b817f1a9addda855d973a9458c236556244\", \"files\": {}}",
+        "dest": "cargo/vendor/windows-0.43.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/windows/windows-0.44.0.crate",
         "sha256": "9e745dab35a0c4c77aa3ce42d595e13d2003d6902d6b08c9ef5fc326d08da12b",
         "dest": "cargo/vendor/windows-0.44.0"
@@ -4157,6 +4209,19 @@
         "type": "inline",
         "contents": "{\"package\": \"b68db261ef59e9e52806f688020631e987592bd83619edccda9c47d42cde4f6c\", \"files\": {}}",
         "dest": "cargo/vendor/winres-0.1.12",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/winres-edit/winres-edit-0.1.0.crate",
+        "sha256": "ded2b41cae4b547961adf48f471d74abbe02c6ba281cedfe93d92bf9d5c66383",
+        "dest": "cargo/vendor/winres-edit-0.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"ded2b41cae4b547961adf48f471d74abbe02c6ba281cedfe93d92bf9d5c66383\", \"files\": {}}",
+        "dest": "cargo/vendor/winres-edit-0.1.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
