@@ -49,8 +49,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Stremio/stremio-service.git",
-                    "tag": "v0.1.20",
-                    "commit": "636287ab616cf9e46a025f423af04b51eae7b46d"
+                    "commit": "21631ddacf441e0a7fe24737941ba38c3391c2cc"
                 },
                 "cargo-sources.json",
                 "server-source.json"
