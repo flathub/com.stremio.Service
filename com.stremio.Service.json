@@ -4,6 +4,13 @@
     "runtime-version": "24.08",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
+    "add-extensions": {
+        "org.freedesktop.Platform.ffmpeg-full": {
+            "version": "24.08",
+            "directory": "lib/ffmpeg",
+            "add-ld-path": "."
+        }
+    },
     "command": "stremio-service",
     "finish-args": [
         "--share=network",
@@ -33,12 +40,13 @@
                 "cargo --offline build --release --features=bundled,offline-build --verbose"
             ],
             "post-install": [
+                "mkdir -p /app/lib/ffmpeg",
                 "install -Dm755 ./flatpak/stremio-service -t /app/bin/",
                 "install -Dm755 server.js -t /app/share/stremio-service/",
                 "install -Dm755 ./target/release/stremio-service -t /app/share/stremio-service/",
                 "install -Dm755 ./resources/bin/linux/stremio-runtime -t /app/share/stremio-service/",
-                "install -Dm755 ./resources/bin/linux/ffmpeg -t /app/share/stremio-service/",
-                "install -Dm755 ./resources/bin/linux/ffprobe -t /app/share/stremio-service/",
+                "ln -s /usr/bin/ffmpeg /app/share/stremio-service/ffmpeg",
+                "ln -s /usr/bin/ffprobe /app/share/stremio-service/ffprobe",
                 "install -Dm644 ./LICENSE.md -t /app/share/licenses/stremio-service/",
                 "install -Dm644 ./resources/com.stremio.service.desktop /app/share/applications/com.stremio.Service.desktop",
                 "sed -i -e 's/com.stremio.service/com.stremio.Service/g' /app/share/applications/com.stremio.Service.desktop",
